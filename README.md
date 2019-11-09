@@ -7,7 +7,7 @@ Decision Trees for Classification, Decision Trees for Regression and Logistic Re
 
 1. Used pipelines and cross-validation to find the best configuration of parameters and their accuracy. Also a sensible grid for the parameters (for example, three options for each parameter) is constructed. Used the same splits of training and test data when comparing performances between the algorithms. ​In order to find the best configuration of parameters, 25% of the data chosen randomly from the whole set is used​.
      
-2. Once the best parameter configurations for each algorithm in the smaller subset of the data are found, Classifiers are trained and tested on the full dataset to compare the performance of the three algorithms in the cluster. Once again, used the same splits of training and test data when comparing performances between the algorithms. Provide training times when using 10 CORES and 20 CORES on University of Sheffield's Cluster Computing platform, (SHARC). 
+2. Once the best parameter configurations for each algorithm in the smaller subset of the data are found, ML models are trained and tested on the full dataset to compare the performance of the three algorithms in the cluster. Once again, used the same splits of training and test data when comparing performances between the algorithms. Provide training times when using 10 CORES and 20 CORES on University of Sheffield's Cluster Computing platform, (SHARC). 
 
 3. At the end reported the three most relevant features for classification or regression for each ML Algorithm, obtained in step 2.
 
